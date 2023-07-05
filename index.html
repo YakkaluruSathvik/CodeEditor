@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Editor</title>
+  <script src="https://kit.fontawesome.com/0365cafd12.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="code.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="nav">
+    <h3 align="center" class="head"> &lt;/&gt; Code Editor</h3>
+  </div>
+
+  <div class="container">
+    <div class="left">
+      <label><i id="html" class="fa-brands fa-html5"></i> HTML</label>
+      <textarea name="" id="html-code" onkeyup="run()"></textarea>
+
+      <label><i id="css" class="fa-brands fa-css3-alt"></i>CSS</label>
+      <textarea name="" id="css-code" onkeyup="run()"></textarea>
+
+      <label><i id="js" class="fa-brands fa-js"></i>Javascript</label>
+      <textarea name="" id="js-code" onkeyup="run()"></textarea>
+    </div>
+    <div class="right">
+      <label id="op"><i id="run-btn" class="fa-solid fa-play"></i>Output Window</label>
+      <iframe id="output"></iframe>
+    </div>
+  </div>
+  <div class="info" align="center">
+    <p class="infotext">Made with ❤️ by Yakkaluru Sathvik</p>
+    <a class="linkbtn" href="https://www.linkedin.com/in/yakkaluru-sathvik-04b53a213/" target='_blank' role="button"><i
+        class="icon fa-brands fa-linkedin fa-2x"></i></a>
+    <a class="linkbtn" href="https://github.com/YakkaluruSathvik" target='_blank' role="button"><i
+        class="icon fa-brands fa-github fa-2x"></i></a>
+        <br>
+        <br>
+    <p>Copyright © 2023. Yakkaluru Sathvik. All rights reserved.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

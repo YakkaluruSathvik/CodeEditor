@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', 'sans-serif';
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100%;
+  height: 56px;
+  padding-top: 12px;
+  background-color: #1f1f1f;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  display: inline-flexbox;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+  padding-top: 3px;
+  background-color: #1f1f1f;
+  margin-top: 365px;
+
+}
+
+.head {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.linkbtn {
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+
+#html-code,
+#css-code,
+#js-code {
+  font-family: monospace;
+}
+
+i {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+#html {
+  color: orange;
+}
+
+#css {
+  color: deepskyblue;
+}
+
+#js {
+  color: yellow;
+}
+
+#run-btn {
+  color: #6CD97E;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0 0 0 5px;
+  justify-content: center;
+  align-items: center;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  display: inline-block;
+  text-align: center;
+}
+
+#op {
+  height: 50px;
+}
+
+body {
+  background: #454545;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+}
+
+.left {
+  flex-basis: 50%;
+  padding: 5px;
+}
+
+.right {
+  flex-basis: 50%;
+  padding: 5px;
+}
+
+#html-code,
+#css-code,
+#js-code {
+  width: 100%;
+  height: 32%;
+  max-height: 40%;
+  background: #1f1f1f;
+  color: #fff;
+  padding: 10px 15px;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  resize: vertical;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border: 0;
+  outline: 0;
+}
+
+label {
+  width: 100%;
+  min-width: 30vw;
+  display: flex;
+  align-items: center;
+  background: #000;
+  height: 30px;
+}
+
+.infotext {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 8px;
+  padding-top: 6px;
+}
+
+.linkbtn {
+  padding: 5px 5px;
+}
